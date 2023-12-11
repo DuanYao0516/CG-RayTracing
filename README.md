@@ -13,13 +13,11 @@
 }
 </style>
 
-<p align="center"><font face="黑体" size=2.>课程名称：Computer Graphic</font></p>
+课程名称：计算机图形学
 
-<div class="center">
-
-| 组长 | 段尧 |
+| 组长 | dy |
 |----|----|
-| **组员** | **李骏唯、张礼贤、唐成文** |
+| **组员** | **ljw、zlx、tcw** |
 
 ## 任务：完善光线追踪渲染器
 ### 功能实现
