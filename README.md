@@ -2,16 +2,6 @@
 # <center>计算机图形学<center>
 ## <center>本科生实验报告<center>
 ## <center>（2023学年秋季学期）<center>
-<!-- 让表格居中显示的风格 -->
-<style>
-.center 
-{
-  width: auto;
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
 
 课程名称：计算机图形学
 
@@ -35,6 +25,7 @@
 $$
  I = \frac{1}{N} \sum_{i=1}^{N} f(\theta_i, \phi_i) \sin(\theta_i) \Delta \theta_i \Delta \phi_i 
 $$
+
 其中，\(f(\theta_i, \phi_i)\) 是在球面上某点的函数值，\(\theta_i\) 和 \(\phi_i\) 是球坐标系下的角度，\(\Delta \theta_i\) 和 \(\Delta \phi_i\) 是相邻积分点之间的角度差。
 
 **3. 光散射**
@@ -44,6 +35,7 @@ $$
 $$
 L_o(\omega_o) = \int_{\Omega} f(\omega_i, \omega_o) L_i(\omega_i) \cos(\theta_i) d\omega_i 
 $$
+
 其中，\(L_o(\omega_o)\) 是出射辐射度，\(f(\omega_i, \omega_o)\) 是BRDF，\(L_i(\omega_i)\) 是入射辐射度，\(\cos(\theta_i)\) 是入射方向的余弦值。
 
 **4. 散射**
@@ -53,6 +45,7 @@ $$
 $$
 L_o(x, \omega_o) = \frac{1}{N} \sum_{i=1}^{N} f(\omega_i, \omega_o) L_i(x, \omega_i) \cos(\theta_i) 
 $$
+
 **5. 散射PDF**
 
 为了进行重要采样，我们需要计算散射的概率密度函数（PDF）。对于均匀散射，PDF可以表示为：
